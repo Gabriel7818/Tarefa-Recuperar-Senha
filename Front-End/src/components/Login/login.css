@@ -1,0 +1,92 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(39, 39, 39);
+}
+
+.borderForm {
+  box-shadow: 5px 5px 15px 5px rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 50px 100px 100px 100px;
+  background-color: #fff;
+  z-index: 1000;
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+button {
+  width: 100%;
+}
+
+.context {
+  width: 100%;
+  position: absolute;
+  top: 50vh;
+}
+
+.context h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+}
+
+.circles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.aling-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-email-password{
+    background-color: rgb(204, 203, 203);
+    border-radius: 7px;
+    margin-left: 3px;
+}
+.form-control{
+  border-radius: 20px;
+}
+
+.style-input{
+  width: 100%;
+  background-color: unset;
+  border: 2px solid #000000;
+  border-radius: 8px;
+}
+
+.FormLabel{
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+
+.aling-singnUp-pass{
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-singUp-pass{
+  text-decoration: unset;
+  color: #000;
+  font-size: 11px;
+}
+
+.link-singUp-pass:hover{
+  color: gray;
+}
